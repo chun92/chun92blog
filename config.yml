@@ -29,7 +29,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -72,14 +72,14 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Chun92's Blog \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Chun92's Blog"
+    Content: 잡다한 개발자의 블로그
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: facebook
+      url: "https://www.facebook.com/hyunjoon.park.792"
+    - name: email
+      url: "chunuiyu@gmail.com"
     - name: github
       url: "https://github.com/chun92"
 
@@ -97,7 +97,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/chun92/chun92blog/content"
+    URL: "https://github.com/chun92/chun92blog/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -142,4 +142,4 @@ outputs:
     home:
         - HTML
         - RSS
-        # - JSON # is necessary
+        - JSON
