@@ -1,0 +1,109 @@
+.font-normal {
+    font-weight: normal;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-lighter {
+    font-weight: lighter;
+}
+
+/* colors */
+
+.font-color.red.brightness1 {
+    color: rgb(66, 5, 22);
+}
+
+.font-color.red.brightness2 {
+    color: rgb(125, 25, 53);
+}
+
+.font-color.red.brightness3 {
+    color: rgb(180, 43, 81);
+}
+
+.font-color.red.brightness4 {
+    color:rgb(230, 62, 109);
+}
+
+.font-color.green.brightness1 {
+    color: rgb(25, 26, 25);
+}
+
+.font-color.green.brightness2 {
+    color: rgb(30, 81, 40); 
+}
+
+.font-color.green.brightness3 {
+    color: rgb(78, 159, 61);
+}
+
+.font-color.green.brightness4 {
+    color:rgb(216, 233, 168);
+}
+
+.font-color.blue.brightness1 {
+    color: rgb(38, 28, 44);
+}
+
+.font-color.blue.brightness2 {
+    color: rgb(62, 44, 65); 
+}
+
+.font-color.blue.brightness3 {
+    color: rgb(92, 82, 127);
+}
+
+.font-color.blue.brightness4 {
+    color:rgb(110, 133, 178);
+}
+
+.dark .font-color.red.brightness1 {
+    color: rgb(252, 226, 219);
+}
+
+.dark .font-color.red.brightness2 {
+    color: rgb(241, 198, 211);
+}
+
+.dark .font-color.red.brightness3 {
+    color: rgb(228, 163, 212);
+}
+
+.dark .font-color.red.brightness4 {
+    color:rgb(194, 149, 216);
+}
+
+.dark .font-color.green.brightness1 {
+    color: rgb(247, 247, 232);
+}
+
+.dark .font-color.green.brightness2 {
+    color: rgb(199, 207, 183); 
+}
+
+.dark .font-color.green.brightness3 {
+    color: rgb(157, 173, 127);
+}
+
+.dark .font-color.green.brightness4 {
+    color:rgb(85, 113, 116);
+}
+
+.dark .font-color.blue.brightness1 {
+    color: rgb(223, 244, 243);
+}
+
+.dark .font-color.blue.brightness2 {
+    color: rgb(221, 231, 242); 
+}
+
+.dark .font-color.blue.brightness3 {
+    color: rgb(185, 187, 223);
+}
+
+.dark .font-color.blue.brightness4 {
+    color:rgb(135, 142, 205);
+}

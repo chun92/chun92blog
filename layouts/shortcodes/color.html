@@ -1,0 +1,15 @@
+{{ resources.Get "css/common/color.css" | minify | fingerprint | .Page.Scratch.SetInMap "css" "color" }}
+
+{{ $text := .Get 0 }}
+{{ $color := .Get 1 }}
+{{ $brightness := "brightness2" }}
+{{ $weight := "font-normal" }}
+{{ if len .Params | lt 2 }}
+    {{ if or (.Get 2 | eq "bold") (.Get 2 | eq "b") }}
+        {{ $weight = "font-bold" }}
+    {{ end }}
+{{ end }}
+{{ if len .Params | lt 3 }}
+    {{ $brightness = .Get 3 | printf "%s%d" "brightness" }}
+{{ end }}
+<span class="font-color {{ $color }} {{ $brightness }} {{ $weight }}">{{ $text }}</span>
