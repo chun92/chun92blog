@@ -3,10 +3,16 @@
 {{ $text := .Get 0 }}
 {{ $color := .Get 1 }}
 {{ $brightness := "brightness2" }}
-{{ $weight := "font-normal" }}
+{{ $weight := "font-bold" }}
 {{ if len .Params | lt 2 }}
     {{ if or (.Get 2 | eq "bold") (.Get 2 | eq "b") }}
         {{ $weight = "font-bold" }}
+    {{ end }}
+    {{ if or (.Get 2 | eq "normal") (.Get 2 | eq "n") }}
+        {{ $weight = "font-normal" }}
+    {{ end }}
+    {{ if or (.Get 2 | eq 4) (or (.Get 2 | eq 3) (or (.Get 2 | eq 2) (.Get 2 | eq 1))) }}
+        {{ $brightness = .Get 2 | printf "%s%d" "brightness" }}
     {{ end }}
 {{ end }}
 {{ if len .Params | lt 3 }}
