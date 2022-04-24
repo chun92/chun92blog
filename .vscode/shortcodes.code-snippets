@@ -1,0 +1,26 @@
+{
+	"Bold": {
+		"scope": "markdown",
+		"prefix": ["bold"],
+		"body": ["{{< bold \"${1:text}\" >}}"],
+		"description": "bold"
+	},
+	"Link": {
+		"scope": "markdown",
+		"prefix": ["link"],
+		"body": ["{{< link \"${2:text}\" \"${1:url}\">}}"],
+		"description": "link"
+	},
+	"Term": {
+		"scope": "markdown",
+		"prefix": ["term"],
+		"body": ["{{< term \"${1:text}\" >}}"],
+		"description": "highlight terminology"
+	},
+	"Color": {
+		"scope": "markdown",
+		"prefix": ["color"],
+		"body": ["{{< color \"${1:text}\" ${2|red,green,blue|} ${3|bold,normal|} ${4|1,2,3,4} >}}"],
+		"description": "color text"
+	}
+}
