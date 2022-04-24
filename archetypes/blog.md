@@ -6,5 +6,4 @@ categories:
 tags:
 - 블로그
 - 개발
-comments: true
 ---
