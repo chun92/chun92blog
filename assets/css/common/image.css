@@ -1,0 +1,17 @@
+.image-basic {
+    text-align: center;
+}
+
+.image-basic img {
+    display: block; 
+    margin: 1rem auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.image-basic figcaption {
+    display: block; 
+    color: gray;
+    margin: 1rem 0;
+}

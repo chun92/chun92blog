@@ -22,5 +22,17 @@
 		"prefix": ["color"],
 		"body": ["{{< color \"${1:text}\" ${2|red,green,blue|} ${3|bold,normal|} ${4|1,2,3,4} >}}"],
 		"description": "color text"
-	}
+	},
+	"ImageWithCaption":  {
+		"scope": "markdown",
+		"prefix": ["image-caption"],
+		"body": ["{{< image \"${1:url}\" \"${2:caption}\">}}"],
+		"description": "insert image with caption"
+	},
+	"Image":  {
+		"scope": "markdown",
+		"prefix": ["image"],
+		"body": ["{{< image \"${1:url}\">}}"],
+		"description": "insert image"
+	},
 }

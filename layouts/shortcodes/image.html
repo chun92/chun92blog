@@ -1,0 +1,16 @@
+{{ resources.Get "css/common/image.css" | minify | fingerprint | .Page.Scratch.SetInMap "css" "image" }}
+
+{{ $url := .Get 0 }}
+{{ $caption := .Get 1 }}
+{{ with .Page.Resources.GetMatch $url }}
+<div class="image-basic">
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+    {{ with $caption }}
+    <small>
+    <figcaption>
+        {{ $caption }}
+    </figcaption>
+    </small>
+</div>
+    {{ end }}
+{{ end }}
