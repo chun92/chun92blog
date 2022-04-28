@@ -3,7 +3,12 @@ title: "블로그 구축기(1) Static Site Generator"
 date: 2022-04-29T01:24:48+09:00
 images:
 categories:
+- 개발
 tags:
+- 블로그
+- 개발
+- SSG
+- Hugo
 ---
 
 ### 서비스형 블로그를 버리자
