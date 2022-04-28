@@ -78,8 +78,6 @@ params:
   socialIcons:
     - name: facebook
       url: "https://www.facebook.com/hyunjoon.park.792"
-    - name: email
-      url: "chunuiyu@gmail.com"
     - name: github
       url: "https://github.com/chun92"
 
