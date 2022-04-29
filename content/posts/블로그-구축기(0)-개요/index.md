@@ -7,8 +7,6 @@ categories:
 tags:
 - 블로그
 - 개발
-- Hugo
-- Netlify
 draft: false
 ---
 ## 블로그 구축에 관하여
